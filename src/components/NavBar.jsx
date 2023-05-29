@@ -49,7 +49,6 @@ const NavBar = () => {
           <Link to={text} smooth duration={500} onClick={() => navOpen(!nav)}>{text}</Link>
         </li>))}
       </ul>)}
-      
     </div>
   )
 }
