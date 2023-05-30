@@ -10,3 +10,20 @@
     font-family: 'Raleway', sans-serif;
   }
 }
+
+@keyframes shake {
+  0% { transform: translateY(0); }
+  10% { transform: translateY(-10px) rotate(-5deg); }
+  30% { transform: translateY(10px) rotate(5deg); }
+  50% { transform: translateY(-10px) rotate(-5deg); }
+  70% { transform: translateY(10px) rotate(5deg); }
+  90% { transform: translateY(0) rotate(0); }
+  100% { transform: translateY(0) rotate(0); }
+}
+
+.shake {
+  animation-name: shake;
+  animation-duration: 2s;
+  animation-iteration-count: 20;
+  animation-delay: 15s;
+}
