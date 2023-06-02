@@ -6,13 +6,13 @@ const About = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
         </div>
         <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam praesentium sit vitae quia quaerat, possimus optio obcaecati doloribus aliquid ipsam porro nisi veniam. Architecto dolor et expedita veritatis temporibus, nisi ea quibusdam! Autem neque laudantium hic iure eum eos atque deserunt corrupti. Aperiam porro dolor provident accusamus id natus rerum!
+          Hello! I am <strong>Oluwatoyin Jolaoso</strong> from Abuja Nigeria. An enthusiastic frontend developer dedicated to creating captivating user experiences through innovative web design. With a strong foundation in HTML, CSS, and JavaScript, I specialize in building responsive, intuitive and interactive websites while optimizing performance, or implementing modern frameworks. 
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae fuga ipsum natus ut, nobis expedita. Error veniam dolorum fuga earum delectus perspiciatis nemo nostrum itaque ratione optio illo ipsa, rerum doloribus voluptatum provident officiis iusto? Tempora nihil sapiente eos porro cum perspiciatis quasi officia, explicabo sequi doloribus, veritatis, provident asperiores.
+          I do my best to bring clients&apos; visions to life while adhering to industry best practices. I am constantly seeking new challenges to expand my skill set and stay ahead of the ever-evolving web development technologies.
         </p>
       </div>
     </div>

@@ -1,10 +1,10 @@
 import html from '../assets/experience/html.jpg'
 import css from '../assets/experience/css.jpg'
 import javascript from '../assets/experience/javascript.jpg'
-import scss from '../assets/experience/scss.jpg'
+// import scss from '../assets/experience/scss.jpg'
 import tailwind from '../assets/experience/tailwind.png'
 import reactimg from '../assets/experience/react.jpg'
-import vue from '../assets/experience/vue.jpg'
+// import vue from '../assets/experience/vue.jpg'
 
 const Experience = () => {
 
@@ -39,18 +39,18 @@ const Experience = () => {
       title: 'Tailwind',
       style: "shadow-sky-400"
     },
-    {
-      id: 6,
-      src: scss,
-      title: 'SCSS',
-      style: "shadow-orange-500"
-    },
-    {
-      id: 7,
-      src: vue,
-      title: 'Vue',
-      style: "shadow-green-500"
-    },
+    // {
+    //   id: 6,
+    //   src: scss,
+    //   title: 'SCSS',
+    //   style: "shadow-orange-500"
+    // },
+    // {
+    //   id: 7,
+    //   src: vue,
+    //   title: 'Vue',
+    //   style: "shadow-green-500"
+    // },
     {
       id: 8,
       src: html,

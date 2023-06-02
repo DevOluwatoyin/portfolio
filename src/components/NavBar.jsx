@@ -35,7 +35,7 @@ const NavBar = () => {
       </div>
       <ul className="hidden md:flex">
         {navLinks.map(({id, text}) =>
-        (<li key={id} className="px-4 py-2 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">
+        (<li key={id} className="px-4 py-2 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 hover:underline duration-200">
             <Link to={text} smooth duration={500}>{text}</Link>
         </li>))}
       </ul>

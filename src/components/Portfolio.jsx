@@ -1,20 +1,26 @@
-import calc from '../assets/portfolio/calculator.jpg'
-import reactCounter from '../assets/portfolio/reactCounter.jpg'
-import vueCounter from '../assets/portfolio/vueCounter.jpg'
+import calculator from '../assets/portfolio/calculator.jpg'
+import counter from '../assets/portfolio/reactCounter.jpg'
+import movies from '../assets/portfolio/movieApp.jpg'
 
 const Portfolio = () => {
   const portfolios =[
     {
       id: 1,
-      src: calc
+      src: calculator,
+      demo: 'https://08yhgg.csb.app/',
+      code: 'https://codesandbox.io/s/basic-arithmetic-calculator-08yhgg?file=/src/index.js'
     },
     {
       id: 2,
-      src: reactCounter
+      src: counter,
+      demo: 'https://altschool-exam-beta.vercel.app/',
+      code: 'https://github.com/DevOluwatoyin/react-counter'
     },
     {
       id: 3,
-      src: vueCounter
+      src: movies,
+      demo: 'https://stately-gumption-b73c43.netlify.app/',
+      code: 'https://github.com/DevOluwatoyin/movies'
     }
   ]
   return (
@@ -26,12 +32,12 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
-          {portfolios.map(({id, src}) => (
+          {portfolios.map(({id, src, demo, code}) => (
           <div key={id} className="shadow-md shadow-gray-600 rounded-lg overflow-hidden group">
             <img src={src} width={384} height={240} alt="calculator Ui" className="duration-200 group-hover:scale-105" />
             <div className="flex items-center justify-center">
-              <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Demo</button>
-              <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Code</button>
+              <a href={demo} target="_blank" rel="noreferrer" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-center">Demo</a>
+              <a href={code} target="_blank" rel="noreferrer" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-center">Code</a>
             </div>
           </div>
           ))}

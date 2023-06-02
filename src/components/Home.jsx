@@ -8,7 +8,7 @@ const Home = () => {
       <div className="max-w-7xl mx-auto flex flex-col items-center justify-center px-4 pt-24 gap-10 md:flex-row md:px-8">
         <div className="flex flex-col justify-center items-center md:items-baseline">
           <h2 className="w-full max-w-3xl text-white text-4xl font-bold text-center md:text-7xl md:text-left">I&apos;m a Frontend Developer</h2>
-          <p className="text-gray-500 py-4 max-w-md">I have one year of experience...</p>
+          <p className="text-gray-500 py-4 max-w-md">I have experience working with React and CSS frameworks like tailwind css and SCSS.</p>
           <div>
             <Link to="portfolio" smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
               Portfolio
