@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "color-html": "#ffb833",
+        "color-css": "#3b82f6",
+        "color-javascript": "#eab308",
+        "color-react": "#2563eb",
+        "color-tailwind": "#38bdf8",
+        "color-github": "#9ca3af",
+      }
+    },
     screens: {
       sm: "375px",
       md: "768px",

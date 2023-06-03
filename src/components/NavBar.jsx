@@ -1,10 +1,24 @@
 import {FaBars, FaTimes } from 'react-icons/fa'
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from 'react-scroll';
 
 const NavBar = () => {
 
   const [nav, navOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+  useEffect(() => {
+    function handleScroll() {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    }
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const navLinks = [
     {
@@ -17,7 +31,7 @@ const NavBar = () => {
     },
     {
       id: 3,
-      text: 'portfolio'
+      text: 'projects'
     },
     {
       id: 4,
@@ -29,7 +43,9 @@ const NavBar = () => {
     }
   ]
   return (
-    <div className="flex justify-between text-center w-full h-20 p-4 text-white bg-black fixed z-50">
+    <div className={`flex justify-between text-center w-full h-20 p-4 text-white bg-black fixed z-50 transition-all duration-500 ease-in-out ${
+      isScrolled ? "navbar-scroll" : ""
+    }`}>
       <div>
         <h1 className="text-5xl font-signature ml-2">Oluwatoyin</h1>
       </div>

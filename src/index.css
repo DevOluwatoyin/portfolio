@@ -11,6 +11,11 @@
   }
 }
 
+.navbar-scroll {
+  height: 70px;
+  box-shadow: 0 4px 10px 2px #5c5b5b;
+}
+
 @keyframes shake {
   0% { transform: translateY(0); }
   10% { transform: translateY(-10px) rotate(-5deg); }
