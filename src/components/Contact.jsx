@@ -1,4 +1,3 @@
-
 const Contact = () => {
   return (
     <div name="contact" className="w-full bg-gradient-to-b from-black to-gray-800 text-white">

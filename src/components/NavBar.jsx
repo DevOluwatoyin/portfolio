@@ -1,6 +1,7 @@
 import {FaBars, FaTimes } from 'react-icons/fa'
 import { useEffect, useState } from "react";
 import { Link } from 'react-scroll';
+import { navLinks } from './variables/nav';
 
 const NavBar = () => {
 
@@ -20,28 +21,6 @@ const NavBar = () => {
     };
   }, []);
 
-  const navLinks = [
-    {
-      id: 1,
-      text: 'home'
-    },
-    {
-      id: 2,
-      text: 'about'
-    },
-    {
-      id: 3,
-      text: 'projects'
-    },
-    {
-      id: 4,
-      text: 'experience'
-    },
-    {
-      id: 5,
-      text: 'contact'
-    }
-  ]
   return (
     <div className={`flex justify-between text-center w-full h-20 p-4 text-white bg-black fixed z-50 transition-all duration-500 ease-in-out ${
       isScrolled ? "navbar-scroll" : ""
