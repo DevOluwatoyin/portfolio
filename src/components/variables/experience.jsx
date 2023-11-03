@@ -35,4 +35,9 @@ export const tech = [
     title: 'Github',
     style: "shadow-color-github"
   },
+    {id: 7,
+    icon: <i className="devicon-nextjs-plain text-white text-7xl md:text-[150px]"></i>,
+    title: 'Nextjs',
+    style: "shadow-white"
+  },
 ]

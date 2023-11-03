@@ -1,5 +1,4 @@
 import { Link } from 'react-scroll'
-// import heroImg from '../assets/heroImg.png'
 import heroImg from '../assets/hero.jpeg'
 import { IoIosArrowForward } from 'react-icons/io'
 
@@ -20,7 +19,7 @@ const Home = () => {
           </p>
           <div>
             <Link
-              to="portfolio"
+              to="projects"
               smooth
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"

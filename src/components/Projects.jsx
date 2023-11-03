@@ -11,12 +11,15 @@ const Projects = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Projects
           </p>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6">Check out some of my works here</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
           {projects.map((project, id) => (
-            <div
+            <a
               key={id}
+              href={project.demo}
+              target="_blank"
+              rel="noreferrer"
               className="shadow-md shadow-gray-600 rounded-lg overflow-hidden group"
             >
               <img
@@ -25,16 +28,11 @@ const Projects = () => {
                 className="duration-200 group-hover:scale-105 w-full  aspect-[2] object-cover"
               />
               <div className="flex items-center justify-center">
-                <a
-                  href={project.demo}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="px-6 py-3 m-4 duration-200 hover:scale-105 text-center flex items-center gap-3"
-                >
+                <p className="px-6 py-3 m-4 duration-200 hover:scale-105 text-center flex items-center gap-3">
                   <span>View Project</span> <BsBoxArrowUpRight />
-                </a>
+                </p>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
