@@ -1,15 +1,24 @@
-import { Link } from 'react-scroll'
-import heroImg from '../assets/hero.jpeg'
-import { IoIosArrowForward } from 'react-icons/io'
+import { Link } from "react-scroll";
+import heroImg from "../assets/hero.jpeg";
+import { IoIosArrowForward } from "react-icons/io";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Home = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
+  });
   return (
     <div
       name="home"
       className="w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
       <div className="max-w-7xl mx-auto flex flex-col items-center justify-center px-4 pt-24 gap-10 md:flex-row md:px-8">
-        <div className="flex flex-col justify-center items-center md:items-baseline">
+        <div
+          className="flex flex-col justify-center items-center md:items-baseline"
+          data-aos="fade-up"
+        >
           <h2 className="w-full max-w-3xl text-white text-4xl font-bold text-center md:text-7xl md:text-left">
             I am a Frontend Developer
           </h2>
@@ -31,16 +40,15 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="rounded-2xl mx-auto w-2/3 md:max-w-xs overflow-hidden">
-          <img
-            src={heroImg}
-            alt="hero"
-            className="w-full"
-          />
+        <div
+          className="rounded-2xl mx-auto w-2/3 md:max-w-xs overflow-hidden"
+          data-aos="fade-down"
+        >
+          <img src={heroImg} alt="hero" className="w-full" />
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default Home
+export default Home;

@@ -1,16 +1,21 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
   const [sparkle, setSparkle] = useState(false);
 
   const handleClick = () => {
     setSparkle(true);
-
-    // Reset sparkle after a short delay (you can adjust the delay as needed)
     setTimeout(() => {
       setSparkle(false);
     }, 300);
   };
+
+  useEffect(() => {
+    Aos.init({ duration: 1200 });
+  });
+
   return (
     <div
       name="contact"
@@ -28,6 +33,9 @@ const Contact = () => {
             action="https://getform.io/f/05fe9ea6-d087-4045-ba6e-3b491a5a36a9"
             method="POST"
             className="flex flex-col w-full md:w-1/2"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
           >
             <input
               type="text"

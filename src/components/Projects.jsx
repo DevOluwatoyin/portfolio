@@ -1,6 +1,14 @@
 import { projects } from "./variables/projects";
 import { BsBoxArrowUpRight } from "react-icons/bs";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const Projects = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1200 });
+  });
+  
   return (
     <div
       name="projects"
@@ -21,6 +29,9 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
               className="shadow-md shadow-gray-600 rounded-lg overflow-hidden group"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
             >
               <img
                 src={project.src}
