@@ -1,24 +1,31 @@
-import calculator from '../../assets/portfolio/calculator.jpg'
-import counter from '../../assets/portfolio/reactCounter.jpg'
-import movies from '../../assets/portfolio/movieApp.jpg'
+import paysequr from "../../assets/portfolio/paysequr.png";
+import scissor from "../../assets/portfolio/scissor.png";
+import diginums from "../../assets/portfolio/diginums.png";
+import certified from "../../assets/portfolio/certified.png";
 
 export const projects = [
   {
     id: 1,
-    src: calculator,
-    demo: 'https://08yhgg.csb.app/',
-    code: 'https://codesandbox.io/s/basic-arithmetic-calculator-08yhgg?file=/src/index.js'
+    name: "paysequr",
+    src: paysequr,
+    demo: "https://paysequr.com/",
   },
   {
     id: 2,
-    src: counter,
-    demo: 'https://altschool-exam-beta.vercel.app/',
-    code: 'https://github.com/DevOluwatoyin/react-counter'
+    name: "scissor",
+    src: scissor,
+    demo: "https://scissor-url-shortner.vercel.app/",
   },
   {
     id: 3,
-    src: movies,
-    demo: 'https://stately-gumption-b73c43.netlify.app/',
-    code: 'https://github.com/DevOluwatoyin/movies'
-  }
-]
+    name: "diginums",
+    src: diginums,
+    demo: "https://diginums.com/",
+  },
+  {
+    id: 4,
+    name: "certified",
+    src: certified,
+    demo: "https://certifieddump.com/",
+  },
+];
