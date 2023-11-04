@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 
 const Contact = () => {
   const [sparkle, setSparkle] = useState(false);
-
+  const date = new Date().getFullYear();
   const handleClick = () => {
     setSparkle(true);
     setTimeout(() => {
@@ -70,6 +70,10 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <small className="text-center block pb-2">
+        &copy; {date} &bull; Designed and developed by{" "}
+        <strong>Oluwatoyin Jolaoso</strong>
+      </small>
     </div>
   );
 };
