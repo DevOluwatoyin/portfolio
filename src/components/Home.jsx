@@ -23,7 +23,7 @@ const Home = () => {
             I am a Frontend Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have one year experience working with React, Nextjs and CSS
+            I have experience working with React, Nextjs and CSS
             frameworks like tailwind css and SCSS.
           </p>
           <div>
