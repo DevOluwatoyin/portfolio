@@ -19,7 +19,7 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl" data-aos="fade-right">
-          Hello! I am <strong>Oluwatoyin Jolaoso</strong> from Abuja Nigeria. I
+          Hello! I am <strong>Oluwatoyin Jolaoso</strong> from Nigeria. I
           am an enthusiastic frontend developer dedicated to creating
           captivating user experience through innovative web design. I have a
           strong foundation in HTML, CSS, and JavaScript and I specialize in
