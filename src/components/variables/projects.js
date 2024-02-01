@@ -4,12 +4,12 @@ import diginums from "../../assets/portfolio/diginums.png";
 import certified from "../../assets/portfolio/certified.png";
 
 export const projects = [
-  {
-    id: 1,
-    name: "paysequr",
-    src: paysequr,
-    demo: "https://paysequr.com/",
-  },
+  // {
+  //   id: 1,
+  //   name: "paysequr",
+  //   src: paysequr,
+  //   demo: "https://paysequr.com/",
+  // },
   {
     id: 2,
     name: "scissor",
