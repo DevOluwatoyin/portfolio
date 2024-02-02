@@ -42,15 +42,15 @@ export const tech = [
   {
     id: 6,
     icon: (
-      <i className="devicon-git-plain text-color-github text-7xl md:text-[150px]"></i>
+      <i className="devicon-git-plain shadow-red-50 text-red-500 text-7xl md:text-[150px]"></i>
     ),
     title: "Git",
-    style: "shadow-color-red-50",
+    style: "shadow-red-50",
   },
   {
     id: 7,
     icon: (
-      <i className="devicon-github-original bg-red-500 text-color-github text-7xl md:text-[150px]"></i>
+      <i className="devicon-github-original text-color-github text-7xl md:text-[150px]"></i>
     ),
     title: "Github",
     style: "shadow-color-github",
@@ -66,9 +66,9 @@ export const tech = [
   {
     id: 9,
     icon: (
-      <i className="devicon-typescript-plain text-blue-700 text-7xl md:text-[150px]"></i>
+      <i className="devicon-typescript-plain shadow-color-css text-blue-700 text-7xl md:text-[150px]"></i>
     ),
     title: "Typescript",
-    style: "shadow-react",
+    style: "shadow-color-react",
   },
 ];
