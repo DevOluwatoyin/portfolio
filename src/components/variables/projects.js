@@ -1,4 +1,4 @@
-import movieApp from "../../assets/portfolio/movieApp.png";
+import movieApp from "../../assets/portfolio/movieApp.jpg";
 import scissor from "../../assets/portfolio/scissor.png";
 import diginums from "../../assets/portfolio/diginums.png";
 import certified from "../../assets/portfolio/certified.png";
