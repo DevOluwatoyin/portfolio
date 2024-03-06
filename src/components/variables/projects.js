@@ -12,12 +12,12 @@ export const projects = [
     src: certified,
     demo: "https://certifieddump.com/",
   },
-  {
-    id: 2,
-    name: "diginums",
-    src: diginums,
-    demo: "https://diginums.com/",
-  },
+  // {
+  //   id: 2,
+  //   name: "diginums",
+  //   src: diginums,
+  //   demo: "https://diginums.com/",
+  // },
   {
     id: 3,
     name: "movie-hub",
