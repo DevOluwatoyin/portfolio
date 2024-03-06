@@ -1,4 +1,4 @@
-// import paysequr from "../../assets/portfolio/paysequr.png";
+import movieApp from "../../assets/portfolio/movieApp.png";
 import scissor from "../../assets/portfolio/scissor.png";
 import diginums from "../../assets/portfolio/diginums.png";
 import certified from "../../assets/portfolio/certified.png";
@@ -20,18 +20,24 @@ export const projects = [
   },
   {
     id: 3,
+    name: "movie-hub",
+    src: movieApp,
+    demo: "https://hub4movies.netlify.app",
+  },
+  {
+    id: 4,
     name: "stryke",
     src: stryke,
     demo: "https://stryk.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     name: "greenmind",
     src: greenmind,
     demo: "https://greenemind.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     name: "scissor",
     src: scissor,
     demo: "https://scissor-url-shortner.vercel.app/",
