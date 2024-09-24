@@ -40,6 +40,6 @@ export const projects = [
     id: 6,
     name: "scissor",
     src: scissor,
-    demo: "https://scissor-url-shortner.vercel.app/",
+    demo: "https://mini-url-kappa.vercel.app/",
   },
 ];
