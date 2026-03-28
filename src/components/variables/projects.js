@@ -5,11 +5,18 @@ import movieApp from "../../assets/portfolio/movieApp.jpg";
 // import stryke from "../../assets/portfolio/stryke.png";
 // import greenmind from "../../assets/portfolio/greenmind.png";
 import qwiva from "../../assets/portfolio/qwiva.png";
+import qwivaApp from "../../assets/portfolio/qwiva-app.png";
 
 export const projects = [
   {
+    id: 8,
+    name: "Qwiva App",
+    src: qwivaApp,
+    demo: "https://app.qwiva.io/",
+  },
+  {
     id: 7,
-    name: "qwiva",
+    name: "qwiva landing page",
     src: qwiva,
     demo: "https://qwiva.io/",
   },
